@@ -559,7 +559,10 @@ a.btn:hover i, a.btn:focus i {
   left: 0;
   top: 0;
   width: 80px;
-  height: 100vh;
+  height: 100%;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill-available;
   background-color: rgba(26, 26, 27, 0.9);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(26, 26, 27, 0.98)), to(rgba(103, 141, 88, 0.9)));
   background: linear-gradient(rgba(26, 26, 27, 0.98) 50%, rgba(103, 141, 88, 0.9));

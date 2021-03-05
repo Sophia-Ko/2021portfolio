@@ -97,7 +97,8 @@ a.btn {
     left: 0;
     top: 0;
     width: 80px;
-    height: 100vh;
+    height: 100%;
+    height: fill-available;
     background-color: rgba($color-black,0.9);
     background: linear-gradient(rgba($color-black,0.98) 50%,rgba($color-dark,0.9));
     padding: 5% 0;
