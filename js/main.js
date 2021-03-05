@@ -40,3 +40,27 @@ new WOW({
     boxClass: 'wow',
     animateClass: 'animate__animated',
 }).init();
+
+
+var menuVue = new Vue({
+    el: '#menu',
+    data(){
+        return {
+            burgerActive: false,
+            list: [
+                {
+                    url: 'index.html', title: '個人介紹',
+                    icon: 'icon-home', en: 'HOME',
+                },
+                {
+                    url: 'portfolio.html', title: '作品一覽',
+                    icon: 'icon-portfolio', en: 'PROTFOLIO',
+                },
+                {
+                    url: 'note.html', title: '學習筆記',
+                    icon: 'icon-note', en: 'NOTE',
+                },
+            ],
+        }
+    }
+});
